@@ -1,4 +1,5 @@
 import React from 'react';
+import landingExImg from '@/src/assets/images/LandingEx.png';
 
 interface HeroProps {
   onNavigate: (page: 'home' | 'training' | 'books' | 'community' | 'investment' | 'auth' | 'dashboard') => void;
@@ -63,7 +64,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               {/* Central Image */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <img
-                  src="/images/LandingEx.png"
+                  src={landingExImg}
                   alt="DG Capital Platform"
                   style={{ maskImage: 'radial-gradient(circle, black 60%, transparent 100%)', WebkitMaskImage: 'radial-gradient(circle, black 50%, transparent 100%)' }}
                   className="w-56 h-56 lg:w-80 lg:h-80 object-contain relative z-10 drop-shadow-2xl rounded-[3rem]"

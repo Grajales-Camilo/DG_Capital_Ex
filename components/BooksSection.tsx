@@ -1,4 +1,11 @@
 import React from 'react';
+import psicologiaDinero from '@/src/assets/images/libros/psicologia-dinero.jpg';
+import leccionesInversion from '@/src/assets/images/libros/lecciones-inversion.jpg';
+import soloUna from '@/src/assets/images/libros/solo_una.jpg';
+import crossing from '@/src/assets/images/libros/crossing.jpg';
+import ceroUno from '@/src/assets/images/libros/cero-uno.jpg';
+import elemento from '@/src/assets/images/libros/elemento.jpg';
+import arteGuerra from '@/src/assets/images/libros/arte-guerra.jpg';
 
 interface Book {
     title: string;
@@ -13,44 +20,44 @@ const BooksSection: React.FC = () => {
         {
             title: "La Psicología del Dinero",
             author: "Morgan Housel",
-            image: "/images/libros/psicologia-dinero.jpg",
+            image: psicologiaDinero,
             embedSrc: "https://open.spotify.com/embed/episode/7nmZyBUYhG5MhbKfBWp3EZ?utm_source=generator",
         },
         {
             title: "Warren y Charlie",
             author: "Javier Caballero",
-            image: "/images/libros/lecciones-inversion.jpg",
+            image: leccionesInversion,
             embedSrc: "https://open.spotify.com/embed/episode/32pHKcwNIwKEdF5SXBdMQw?utm_source=generator",
         },
         {
             title: "Solo una cosa",
             author: "Gary Keller",
-            image: "/images/libros/solo_una.jpg",
+            image: soloUna,
             embedSrc: "https://open.spotify.com/embed/episode/6T200nkxRixTtTPkBYcZn0/video?utm_source=generator",
             isLarge: true // Video format
         },
         {
             title: "Crossing the Chasm",
             author: "Geoffrey Moore",
-            image: "/images/libros/crossing.jpg",
+            image: crossing,
             embedSrc: "https://open.spotify.com/embed/episode/5bWIt17tbEaNWHbdGz6Scj?utm_source=generator",
         },
         {
             title: "De Cero a Uno",
             author: "Peter Thiel",
-            image: "/images/libros/cero-uno.jpg",
+            image: ceroUno,
             embedSrc: "https://open.spotify.com/embed/episode/5XU6hWtia5CsF8Xd4V1ABl?utm_source=generator",
         },
         {
             title: "El Elemento",
             author: "Ken Robinson",
-            image: "/images/libros/elemento.jpg",
+            image: elemento,
             embedSrc: "https://open.spotify.com/embed/episode/1VrTA15QguPtSuxJurKQJX?utm_source=generator",
         },
         {
             title: "El Arte de la Guerra",
             author: "Sun Tzu",
-            image: "/images/libros/arte-guerra.jpg",
+            image: arteGuerra,
             embedSrc: "https://open.spotify.com/embed/episode/3p25S15GrAFVamQTZ5Pqm1?utm_source=generator",
         }
     ];
