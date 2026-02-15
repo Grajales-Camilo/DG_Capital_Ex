@@ -1,4 +1,5 @@
 import React from 'react';
+import jaguarLogo from '@/src/assets/images/jaguar_trans.png';
 
 interface FooterProps {
   onNavigate: (page: 'home' | 'training' | 'books' | 'community' | 'investment' | 'auth' | 'dashboard') => void;
@@ -108,8 +109,8 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <p className="text-center md:text-left">
             Copyright © 2026 DG CAPITAL. Todos los derechos reservados.
             <span className="hidden md:inline mx-2">|</span>
-            <span className="block md:inline mt-2 md:mt-0">
-              Con el poder de <a href="https://grajales-camilo.github.io/Jaguar_House/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-white transition-colors font-bold">Jaguar House</a>
+            <span className="block md:inline mt-2 md:mt-0 flex items-center gap-2 justify-center md:justify-start">
+              Con el poder de <a href="https://grajales-camilo.github.io/Jaguar_House/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-white transition-colors font-bold flex items-center gap-2">Jaguar House <img src={jaguarLogo} alt="Jaguar House" className="h-6 w-auto object-contain" /></a>
             </span>
           </p>
           <div className="flex gap-10 mt-6 md:mt-0">

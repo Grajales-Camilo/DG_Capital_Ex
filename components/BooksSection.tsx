@@ -77,6 +77,16 @@ const BooksSection: React.FC = () => {
                 <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
                     No solo ofrecemos cursos; compartimos ideas de pensadores influyentes.
                     Encuentra análisis sobre estrategia, inversión, negocios y mentalidad.
+                    <br />
+                    <a
+                        href="https://open.spotify.com/show/1P45qYGiz87jkoOcSEDkoR?si=kSVHSXqoSaOhhY5LqGRCxw"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:text-white transition-colors font-bold inline-flex items-center gap-2 mt-4"
+                    >
+                        <span className="material-symbols-outlined">podcasts</span>
+                        Síguenos en Spotify
+                    </a>
                 </p>
             </div>
 

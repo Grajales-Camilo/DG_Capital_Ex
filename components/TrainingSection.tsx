@@ -52,22 +52,22 @@ const TrainingSection: React.FC = () => {
 
     const tracks = [
         {
-            title: "Finanzas Corporativas",
+            title: "Banca de Inversión",
             icon: "account_balance",
-            desc: "Domina la automatización de reportes financieros y optimización de flujos de caja con agentes de IA.",
-            skills: ["Automatización", "Forecasting", "Eficiencia"]
+            desc: "Entiende las estrategias corporativas alrededor de M&A (Fusiones y Adquisiciones) y Financiación Estructurada. Desde una mirada práctica.",
+            skills: ["M&A", "Financiación Estructurada Corporativa", "Project Finance"]
         },
         {
-            title: "Inversiones Inteligentes",
+            title: "Finanzas Corporativas",
             icon: "trending_up",
-            desc: "Implementa modelos predictivos para identificar oportunidades de mercado antes que la competencia.",
-            skills: ["Predictive AI", "Market Analysis", "Data Mining"]
+            desc: "Analiza la estrategia financiera como base fundamental de la estrategia corporativa.",
+            skills: ["Gestión basada en Valor", "Estrategia Financiera", "Growth Finance"]
         },
         {
-            title: "Venture Capital & Scouting",
+            title: "Capital Privado",
             icon: "rocket_launch",
-            desc: "Utiliza IA para el due diligence masivo y la identificación temprana de unicornios tecnológicos.",
-            skills: ["Scouting", "Due Diligence", "Pattern Matching"]
+            desc: "Entendimiento de la estructura de capital privado y la identificación temprana de unicornios tecnológicos usando AI.",
+            skills: ["Capital Privado", "Due Diligence", "Pettern Machine"]
         },
         {
             title: "Análisis de Sentimiento",
@@ -80,6 +80,12 @@ const TrainingSection: React.FC = () => {
             icon: "policy",
             desc: "Simula el impacto macroeconómico de políticas de inversión mediante gemelos digitales.",
             skills: ["Simulación", "Macroeconomía", "Gobernanza"]
+        },
+        {
+            title: "Data Analysis",
+            icon: "dataset",
+            desc: "Utilizando el poder de los modelos generativos de inteligencia artificial, identifica metodologías ágiles para el análisis de datos y la exploración de estrategias en un 50% más rápido que antes.",
+            skills: ["Python", "SQL", "Power Bi"]
         }
     ];
 
@@ -93,10 +99,10 @@ const TrainingSection: React.FC = () => {
                     Academia DG Capital
                 </div>
                 <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">
-                    Lidera la <span className="text-gradient-main">Revolución Financiera</span>
+                    Actualízate en las <span className="text-gradient-main">tendencias tecnológicas, financieras y de estrategia de negocio</span>
                 </h2>
                 <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-                    La IA Generativa no es el futuro, es el presente. Domina las herramientas que están redefiniendo el capital global.
+                    La IA Generativa no es el futuro, es el presente. Domina las herramientas que están redefiniendo la economía global.
                 </p>
             </div>
 
@@ -143,18 +149,18 @@ const TrainingSection: React.FC = () => {
 
                     <div className="mt-12 bg-white/5 rounded-3xl p-8 border border-white/10 backdrop-blur-sm">
                         <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
-                            <span className="material-symbols-outlined text-primary">trending_up</span>
-                            Habilidades en Crecimiento Explosivo
+                            <span className="material-symbols-outlined text-primary">apps</span>
+                            Algunas de nuestras aplicaciones
                         </h3>
                         <div className="flex flex-wrap gap-3">
-                            {["ChatGPT", "IA Generativa", "Microsoft Copilot", "Agentes de IA", "Prompt Engineering", "Ética de IA", "Google Gemini"].map((skill, i) => (
-                                <span key={i} className="px-5 py-2.5 rounded-xl bg-black border border-white/10 text-gray-300 hover:border-primary hover:text-primary transition-colors cursor-default text-sm font-medium">
-                                    {skill}
-                                </span>
+                            {["AI Corporate Finance", "AI Investment Banking", "AI Business Strategy", "AI Data Analysis", "AI Growth Strategy"].map((app, i) => (
+                                <button key={i} className="px-6 py-3 rounded-xl bg-black border border-white/10 text-gray-300 hover:border-primary hover:text-primary transition-all duration-300 hover:scale-105 cursor-pointer text-sm font-bold shadow-sm hover:shadow-primary/20">
+                                    {app}
+                                </button>
                             ))}
                         </div>
                         <p className="mt-6 text-xs text-gray-500 uppercase tracking-widest text-right">
-                            Fuente: Datos Globales de Aprendizaje 2026
+                            Fuente: DG Capital Innovation Lab
                         </p>
                     </div>
                 </div>

@@ -139,6 +139,21 @@ const InvestmentSection: React.FC<InvestmentSectionProps> = ({ onNavigate }) => 
                     ))}
                 </div>
 
+                <div className="mt-16 text-center">
+                    <p className="text-gray-400 mb-6 text-sm">También puedes pagar de forma segura con</p>
+                    <a
+                        href="https://www.paypal.com/ncp/payment/UBFGNX72CJUHE"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block hover:opacity-80 transition-opacity"
+                    >
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+                            alt="Pagar con PayPal"
+                            className="h-10 md:h-12 mx-auto bg-white/10 rounded-full px-6 py-2 border border-white/10 backdrop-blur-sm"
+                        />
+                    </a>
+                </div>
             </div>
         </section>
     );

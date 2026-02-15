@@ -22,7 +22,7 @@ const Features: React.FC<FeaturesProps> = ({ onNavigate }) => {
     {
       icon: 'hub',
       title: 'Comunidad',
-      description: 'Conecta con otros profesionales y estudiantes apasionados por el futuro de las finanzas en nuestro ecosistema digital.',
+      description: 'Conecta con otros profesionales y estudiantes apasionados por el futuro de las finanzas y la tecnología en nuestro ecosistema digital.',
       linkText: 'Unirse ahora',
       targetPage: 'community' as const,
       color: 'secondary',

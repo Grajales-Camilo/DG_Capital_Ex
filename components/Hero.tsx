@@ -34,7 +34,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             </h1>
 
             <p className="text-xl text-gray-400 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-              Domina las herramientas tecnológicas y estrategias de inversión que están definiendo la nueva economía digital con una visión de futuro.
+              Domina las herramientas tecnológicas y estrategia en finanzas corporativas que están definiendo la nueva economía digital con una visión de futuro.
             </p>
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-6 justify-center lg:justify-start">

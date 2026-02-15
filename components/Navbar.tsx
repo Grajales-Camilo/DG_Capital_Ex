@@ -21,9 +21,11 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, isDarkMode = true }) => {
 
   const handleNavClick = (e: React.MouseEvent, item: string) => {
     e.preventDefault();
-    if (item === 'Formación') {
+    if (item === 'Inicio') {
+      onNavigate('home');
+    } else if (item === 'Formación') {
       onNavigate('training');
-    } else if (item === 'Libros') {
+    } else if (item === 'Análisis Libros') {
       onNavigate('books');
     } else if (item === 'Comunidad') {
       onNavigate('community');
@@ -59,7 +61,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, isDarkMode = true }) => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-10">
-            {['Formación', 'Libros', 'Comunidad', 'Inversión'].map((item) => (
+            {['Inicio', 'Formación', 'Análisis Libros', 'Comunidad', 'Inversión'].map((item) => (
               <a
                 key={item}
                 href="#"
@@ -97,7 +99,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, isDarkMode = true }) => {
           }`}
       >
         <div className="px-4 py-6 space-y-4 flex flex-col items-center">
-          {['Formación', 'Libros', 'Comunidad', 'Inversión'].map((item) => (
+          {['Inicio', 'Formación', 'Análisis Libros', 'Comunidad', 'Inversión'].map((item) => (
             <a
               key={item}
               href="#"
